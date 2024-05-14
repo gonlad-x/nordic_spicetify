@@ -16,7 +16,7 @@
 
 ## Previews
 
-_To be added_ 
+![Spicetify Theme Preview](assets/preview.jpg)
 
 ## Usage
 
