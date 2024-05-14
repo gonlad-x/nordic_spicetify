@@ -1,44 +1,15 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/spicetify/spicetify-cli">Spicetify</a>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+	<img src="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/logos/heroes/logo-typography/light/frostic/nord6/spaced.svg?sanitize=true" width="100" alt="Logo"/><br/>
+	Nord theme for <a href="https://github.com/spicetify/spicetify-cli">Spicetify</a>
+	<img src="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/artworks/coloring/cards.svg?sanitize=true" height="30" width="0px"/>
 </h3>
 
-<p align="center">
-    <a href="https://github.com/catppuccin/spicetify/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/spicetify?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/spicetify/issues"><img src="https://img.shields.io/github/issues/catppuccin/spicetify?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/spicetify/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/spicetify?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
-
-![Spicetify Theme Preview](assets/preview.webp)
 
 ## Previews
 
-<details>
-<summary>🌻 Latte</summary>
-<img src="assets/catppuccin-latte.webp"/>
-</details>
-<details>
-<summary>🪴 Frappé</summary>
-<img src="assets/catppuccin-frappe.webp"/>
-</details>
-<details>
-<summary>🌺 Macchiato</summary>
-<img src="assets/catppuccin-macchiato.webp"/>
-</details>
-<details>
-<summary>🌿 Mocha</summary>
-<img src="assets/catppuccin-mocha.webp"/>
-</details>
+_To be added_ 
 
 ## Usage
-
-**From the Marketplace**
-
-1. If you have [Spicetify Marketplace](https://github.com/spicetify/spicetify-marketplace) installed, you can install the theme from Marketplace. 
-
-2. Navigate to Marketplace in the app, go to themes and search for Catppuccin. 
 
 **Manual installation** 
 
@@ -54,19 +25,19 @@
 
 2. Follow the [installation and basic usage guide](https://spicetify.app/docs/getting-started) to setup Spicetify
 
-3. Clone/Download the repository, and place the `catppuccin` folder (containing `user.css`, `theme.js`, `color.ini`, and `assets`) in the `Spicetify/Themes` directory:
+3. Clone/Download the repository, and place the `nordic` folder (containing `user.css`, `theme.js`, `color.ini`, and `assets`) in the `Spicetify/Themes` directory:
       ```
       # UNIX
-      cp -r catppuccin ~/.config/spicetify/Themes/
+      cp -r nordic ~/.config/spicetify/Themes/
       
       # Windows
-      cp catppuccin "$(spicetify -c | Split-Path)\Themes\" -Recurse
+      cp nordic "$(spicetify -c | Split-Path)\Themes\" -Recurse
       ```
 
-4. Set theme and color scheme. Supported color schemes: `frappe`, `latte`, `macchiato`, `mocha`.:
+4. Set theme and color scheme. Supported color schemes: `dark` (light theme to be added later):
    ```
-   spicetify config current_theme catppuccin
-   spicetify config color_scheme frappe
+   spicetify config current_theme nordic
+   spicetify config color_scheme dark
    spicetify config inject_css 1 inject_theme_js 1 replace_colors 1 overwrite_assets 1
    spicetify apply
    ```
@@ -74,7 +45,7 @@
 
 ## 📜 License
 
-Catppuccin is released under the MIT license, which grants the following permissions:
+This is a fork of [Catppuccin](https://github.com/catppuccin/spicetify?tab=readme-ov-file), which is released under the MIT license, which grants the following permissions:
 
 -   Commercial use
 -   Distribution
@@ -83,7 +54,7 @@ Catppuccin is released under the MIT license, which grants the following permiss
 
 For more convoluted language, see the [LICENSE](https://github.com/catppuccin/catppuccin/blob/main/LICENSE).
 
-## 💝 Thanks to
+## 💝 Thanks to Catppuccin's team
 
 Creator:
 - [davidbgonz](https://github.com/davidbgonz)
